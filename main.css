@@ -1,0 +1,64 @@
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+html {
+  background-color: #fa640c;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-family: 'Syne Mono', monospace;
+}
+
+p{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  background-color: rgb(0,0,0,.6);
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  margin: 7% 0 7% 15%;
+  max-width: 30%;
+  min-width: 500px;
+  padding-bottom: 2%;
+}
+
+header{
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+
+section{
+  color: white;
+  padding-left: 6%;
+}
+
+@media (max-width: 680px){
+  body{
+    max-width: 100%;
+    margin: 0;
+    border-radius: 45px;
+  }
+}
